@@ -1,0 +1,67 @@
+.crewSection {
+  padding: 4rem 2rem;
+  background-color: #0b0f1a;
+  color: #e0e7ff;
+}
+
+.crewIntro {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.8;
+  color: #cdd5f3;
+}
+
+.crewGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2.5rem;
+  padding: 0 1rem;
+}
+
+.crewCard {
+  background-color: #1a2130;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.crewCard:hover {
+  transform: translateY(-5px);
+}
+
+.crewImage {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.crewName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.crewRole {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #98b1ff;
+  margin-bottom: 0.5rem;
+}
+
+.crewSpecialty {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #b0c4f0;
+  margin-bottom: 0.75rem;
+}
+
+.crewDescription {
+  font-size: 0.9rem;
+  color: #d6dbf5;
+  line-height: 1.5;
+}
