@@ -1,0 +1,26 @@
+.container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.partnerList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  justify-items: center;
+  align-items: center;
+}
+
+.partnerItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnerLogo {
+  max-width: 120px;
+  height: auto;
+  object-fit: contain;
+}
