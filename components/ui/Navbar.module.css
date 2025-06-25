@@ -45,7 +45,6 @@
   padding: 0 var(--spacing-8);
   margin: var(--spacing-20);
   background-color: transparent;
-
 }
 
 .navbarBG {
@@ -71,7 +70,28 @@
   letter-spacing: 1px;
 }
 
-.navbarLinks:hover, .isLinkActive {
+.navbarLinks:hover,
+.isLinkActive {
   border-block-end: var(--spacing-04) solid var(--border-color);
   margin-block-end: -4px;
+}
+
+.mobileDrawer {
+  background-color: black;
+  color: white;
+  height: 100%;
+  padding: var(--spacing-40);
+}
+
+.mobileDrawerItem {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-bottom: var(--spacing-24);
+  cursor: pointer;
+  transition: border 0.2s;
+}
+
+.mobileDrawerItem:hover {
+  border-bottom: 1px solid var(--border-color);
 }
